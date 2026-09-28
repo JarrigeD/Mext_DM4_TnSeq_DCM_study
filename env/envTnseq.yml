@@ -1,0 +1,22 @@
+---
+#------------------------------------------
+# Environment file for TnSeq workflow
+# Author : Domitille Jarrige
+# Date : 2026-09-28
+#------------------------------------------
+name: envTnseq
+channels:
+ - conda-forge
+ - bioconda
+ - r
+dependencies:
+ - fastqc == 0.11.9
+ - multiqc == 1.11
+ - transit == 3.2.3
+ - python == 3.7
+ - fastp == 0.23.2
+ - bwa == 0.7.12
+ - r-base == 3.6.1
+ - r-pscl == 1.5.5
+ - rpy2 == 3.4.5
+... 

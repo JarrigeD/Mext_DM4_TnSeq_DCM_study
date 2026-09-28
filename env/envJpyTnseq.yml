@@ -1,0 +1,37 @@
+---
+#-----------------------------------------
+# Environment file for jupyter-lab TnSeq analysis
+# Author : Domitille Jarrige
+# Date : 2026-09-14
+#-----------------------------------------
+name: envJpyTnseq
+
+channels:
+ - conda-forge
+ - bioconda
+ - defaults
+
+dependencies:
+ - python
+ - pandas < 3.0
+ - numpy < 2.4.0
+ - matplotlib == 3.11
+ - matplotlib-venn
+ - ipykernel
+ - jupyterlab
+ - bokeh
+ - selenium
+ - python-chromedriver-binary
+ - watermark
+ - ete3
+ - openpyxl
+ - seaborn
+ - cmcrameri
+ - upsetplot
+ - pyzmq
+ - plotly
+ - ipywidgets
+ - notebook
+ - python-kaleido
+ - nomkl
+... 
